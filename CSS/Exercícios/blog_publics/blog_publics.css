@@ -1,0 +1,24 @@
+.date {
+	color: #008080 ;
+	font-family: Roboto,Arial,sans-serif;
+}
+
+body {
+	margin: 0px auto 0px auto;
+	width: 70%;
+}
+
+.post-content {
+	font-family: Open Sans,Arial,sans-serif;
+	padding-bottom: 20px;
+	margin-top: 20px;
+	margin-left: 50px;
+}
+
+h1 {
+	font-family: Montserrat;
+}
+
+div {
+	background-color: #fffafa ;
+}

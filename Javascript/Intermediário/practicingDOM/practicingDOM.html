@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Corretora</title>
+	<script type="text/javascript" src="property.js"></script>
+  <script type="text/javascript" src="app.js"></script>
+  <script type="text/javascript" src="main.js"></script>
+</head>
+<body>
+ <h2>Corretora Borges</h2>
+ <form>
+
+  <p>
+   <label>Tipo de moradia: </label>
+   <select name="type" id="type">
+    <option value="default" id="default">=====</option value="default" id="default">
+    <option value="Casa">Casa</option value="house">
+    <option value="Apartamento">Apartamento</option value="apartment">
+   </select name="type" id="type">
+  </p>
+
+  <p>
+   <label>Área: </label>
+   <input type="text" name="area" id="area">
+   </input type="text" name="area" id="area">
+  </p>
+ 
+  <p>
+   <label>Está alugado? </label>
+   <input type="radio" value="sim" name="isOccupied">Sim
+   <input type="radio" value="não" name="isOccupied">Não
+  </p>
+  <input type="submit" id='submit' name="submit" value="Salvar" onclick="app.addNewHomeData()">
+ </form>
+
+ <ul id="imoveis">  
+ </ul>
+</body>
+</html>
